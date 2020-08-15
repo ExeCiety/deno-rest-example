@@ -3,6 +3,8 @@
 Deno:
 <a href="https://deno.land">https://deno.land</a>
 
+##### Run: denon start
+
 ## Routes
 
 - list: GET - "/api/v1/tasks"
