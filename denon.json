@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": {
+      "cmd": "deno run server.ts",
+      "desc": "Run the server.",
+      "allow": ["net", "write", "read", "plugin"],
+      "unstable": true
+    }
+  }
+}
