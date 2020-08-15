@@ -9,6 +9,13 @@ import {
 
 const route = new Router();
 
+route.get("/", async ({ response }: { response: any }) => {
+  response.status = 200;
+  response.body = {
+    title: "Deno Example Rest Api",
+  };
+});
+
 // LIST
 route.get("/api/v1/tasks", getAll);
 
