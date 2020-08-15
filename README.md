@@ -14,6 +14,6 @@ Deno:
 
 ## Third Party Modules
 
-- [denon](https://deno.land/x/denon).
+- [denon@v2.3.2](https://deno.land/x/denon).
 - [deno_mongo@v0.9.2](https://deno.land/x/mongo).
 - [oak@v5.4.0](https://deno.land/x/oak).
