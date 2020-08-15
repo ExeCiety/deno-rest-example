@@ -5,10 +5,10 @@ Deno:
 
 ## Routes
 
-- list: "/api/v1/tasks"
-- show: "/api/v1/task/:id"
-- update: "/api/v1/task/:id"
-- delete: "/api/v1/task/:id"
+- list: GET - "/api/v1/tasks"
+- show: GET - "/api/v1/task/:id"
+- update: PUT - "/api/v1/task/:id"
+- delete: DELETE - "/api/v1/task/:id"
 
 ## Third Party Modules
 
